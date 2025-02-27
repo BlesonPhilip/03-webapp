@@ -1,0 +1,11 @@
+.container {
+  background-color: aqua;
+  min-height: 100vh;
+}
+.a {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  /* background-color: bisque; */
+  /* min-height: 100vh; */
+}

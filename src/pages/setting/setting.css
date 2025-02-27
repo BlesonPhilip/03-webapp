@@ -1,0 +1,9 @@
+.s {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.s-container {
+  background-color: rgb(184, 117, 246);
+  min-height: 100vh;
+}

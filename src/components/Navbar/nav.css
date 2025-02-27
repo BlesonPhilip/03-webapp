@@ -1,0 +1,28 @@
+.navi {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 40px;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  /* margin-bottom: 10px; */
+}
+.right {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  /* color: antiquewhite; */
+}
+
+.navi a {
+  color: white; /* Changes link text color to white */
+  text-decoration: none; /* Removes underline */
+  margin: 0 10px; /* Adds spacing between links */
+  font-size: 18px;
+}
+
+.navi a:hover {
+  color: #08f783; /* Changes color on hover */
+}
