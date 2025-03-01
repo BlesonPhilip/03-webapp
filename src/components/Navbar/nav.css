@@ -13,16 +13,23 @@
   display: flex;
   gap: 10px;
   justify-content: end;
-  /* color: antiquewhite; */
 }
 
-.navi a {
+/* .navi a {
   color: white; /* Changes link text color to white */
-  text-decoration: none; /* Removes underline */
-  margin: 0 10px; /* Adds spacing between links */
-  font-size: 18px;
-}
+/* text-decoration: none; Removes underline */
+/* margin: 0 10px; Adds spacing between links */
+/* font-size: 18px; */
+/* } */
 
-.navi a:hover {
+/* .navi a:hover {
   color: #08f783; /* Changes color on hover */
+/* * */
+
+.nav-link {
+  color: aliceblue;
+  text-decoration: none;
+}
+.active {
+  color: rgb(24, 186, 105);
 }

@@ -1,10 +1,16 @@
 .h-container {
   background-color: aquamarine;
   min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .h {
   display: flex;
   justify-content: center;
   padding: 10px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
   /* background-color: rgb(152, 193, 179); */
 }
